@@ -6,10 +6,6 @@ spring:
     password:
 #    password: '{cipher}3e74c8c5b7e2ca2299d576e1e5285bb31d0632ec73ada87f475a1e72f9f441d3'
 
-token:
-  expiration_time: 864000000
-  secret: user_token
-  
 order_service:
   url: http://127.0.0.1:8000/order-service/%s/orders
   
