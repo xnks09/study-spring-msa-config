@@ -4,7 +4,6 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     password:
-#    password: '{cipher}3e74c8c5b7e2ca2299d576e1e5285bb31d0632ec73ada87f475a1e72f9f441d3'
 
 order_service:
-  url: http://ORDER-SERVICE/order-service/%s/order #LoadBalanced를 통해 IP가 아니라 이름으로 찾기
+  url: http://ORDER-SERVICE/order-service/%s/order
