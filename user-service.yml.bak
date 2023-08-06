@@ -10,4 +10,6 @@ order_service:
   #url: http://127.0.0.1:8000/order-service/%s/order
   url: http://ORDER-SERVICE/order-service/%s/order #@LoadBalanced를 통해 IP가 아니라 이름으로 찾기
   
-  
+token:
+  expiration_time: 864000000
+  secret: user_token
